@@ -1,0 +1,110 @@
+/*
+Author: Surendra Bohara
+Theme: Vojan Vandar admin
+*/
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif ;
+}
+.wrapper{
+    padding: 1%;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.text-center{
+    text-align: center;
+}
+.clearfix{
+    float:none;
+    clear:both;
+}
+.tbl-full{
+    width: 100%;
+}
+.tbl-30{
+    width: 30%;
+}
+table tr th{
+    border-bottom: 1px solid black;
+    padding: 1%;
+    text-align: left;
+}
+table tr td{
+    padding: 1%;
+}
+.btn-primary{
+    background-color:#1e90ff;
+    padding: 1%;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+.btn-primary:hover{
+    background-color: #ff4757;
+}
+.btn-danger{
+    background-color:#ff4757;
+    padding: 1%;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+
+}
+.btn-danger:hover{
+    background-color: #a5052d;
+}
+.btn-warning{
+    background-color:#8aff47;
+    padding: 1%;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+.btn-warning{
+    background-color: #8aff47;
+}
+/* Css for Menu */
+.menu{
+    border-bottom: 1px solid gray;
+}
+.menu{
+    text-align: center;
+}
+.menu ul{
+    list-style-type: none;
+}
+.menu ul li{
+    display: inline; 
+    padding: 3%;
+ }
+ .menu ul li a{
+    text-decoration: none;
+    font-weight: bold;
+    color: #ffb06b;
+ }
+ .menu ul li a:hover{
+    color: #5437fa;
+
+ }
+
+/* Css for main-content */
+.main-content{
+    background-color: #f1e1e6;
+    padding: 3% 0;
+}
+
+.col-4{
+    width: 18%;
+    background-color: white;
+    margin: 10px;
+    padding: 2%;
+    float: left;
+}
+
+/*css for footer */
+.footer{
+    background-color: #ff4757;
+    color: white;
+}
